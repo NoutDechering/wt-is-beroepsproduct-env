@@ -1,0 +1,48 @@
+
+
+form {
+    line-height: 2;
+    margin: 2em auto;
+    padding: 0.5em;
+    border: 1px black solid;
+    width: 400px;
+}
+
+label {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input, select, textarea {
+    width: 70%;
+}
+
+textarea {
+    height: 70px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 20%;
+}
+
+input:required
+{
+    border: 2px solid red;
+}
+
+input:invalid
+{
+    background-color:darkorange;
+}
+
+input:focus, textarea:focus
+{
+    background-color: lightblue;
+}
+
+.error
+{
+    line-height: normal;
+    color: red;
+}
